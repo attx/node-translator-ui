@@ -17,6 +17,14 @@ cd node-translator
 npm install # or yarn
 ```
 
+Google Translator API Access required: [cloud.google.com/translate](https://cloud.google.com/translate)
+```
+// ./config.json
+{
+  "API_KEY": "<GOOGLE_API_KEY>"
+}
+```
+
 ## Watch
 ```
 npm run watch
