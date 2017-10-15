@@ -7,6 +7,9 @@
 - node
 - express
 
+![preview 1](https://raw.githubusercontent.com/attx/node-translator-ui/master/preview/preview-01.png)
+![preview 2](https://raw.githubusercontent.com/attx/node-translator-ui/master/preview/preview-02.png)
+
 ## Get started
 ```
 git clone https://github.com/attx/node-translator.git
