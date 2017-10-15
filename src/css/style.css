@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* { 
+  border-radius: 0 !important;
+}
+
+body {
+  background-color: #eee !important;
+  font-size: 14px !important;
+  font-family: 'Roboto', sans-serif !important;
+  line-height: 18px !important;
+}
+
+.form-group label {
+  margin-bottom: 4px;
+}
+
+.form-group input {
+  font-size: 12px !important;
+}
+
+.form-control .btn.btn-sm {
+  border-radius: 0 !important;
+}
+
+.mt-2-5 {
+  margin-top: 10px;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+span.badge {
+  background-color: #666;
+  width: 24px;
+  text-transform: uppercase;
+  line-height: normal;
+  border-radius: 0;
+  margin-right: 2px;
+}
+
+.loading {
+  position: relative;
+}
+.loading-bar {
+  display: inline-block;
+  width: 2px;
+  height: 9px;
+  border-radius: 2px;
+  animation: loading 1s ease-in-out infinite;
+  background-color: #007bff;
+}
+.loading-bar:nth-child(1) {
+  animation-delay: 0;
+}
+.loading-bar:nth-child(2) {
+  animation-delay: 0.09s;
+}
+.loading-bar:nth-child(3) {
+  animation-delay: .18s;
+}
+.loading-bar:nth-child(4) {
+  animation-delay: .27s;
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 2.2);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding: 0;
+}
+.table th {
+  border-top: 0;
+}
+.table td, .table th {
+  padding: 0.25rem !important;
+  white-space: nowrap;
+}
