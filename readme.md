@@ -5,6 +5,7 @@
   - vue-axios
 - webpack 3.x
 - node
+  - [node-translator](https://github.com/attx/node-translator)
 - express
 
 ![preview 1](https://raw.githubusercontent.com/attx/node-translator-ui/master/preview/preview-01.png)
