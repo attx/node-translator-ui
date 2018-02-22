@@ -1,4 +1,4 @@
-# node-translator
+# node-translator-ui
 
 - vue
   - bootstrap-vue
